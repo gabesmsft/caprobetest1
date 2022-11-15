@@ -1,9 +1,0 @@
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\BadPerf.exe
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\appsettings.json
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\deploy\azuredeploy-acr.json
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\deploy\azuredeploy.json
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\BadPerf.dll
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\BadPerf.deps.json
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\BadPerf.runtimeconfig.json
-C:\BetaEngineer\ContainerApps\BadPerfASPNETProbe\BadPerf\obj\Release\net6.0\PubTmp\Out\BadPerf.pdb
