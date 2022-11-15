@@ -27,7 +27,9 @@
       "defaultValue": "docker.io/gfakedocker/startupprobetest:latest"
     }
   },
-  "variables": {},
+  "variables": {
+    "APP_PORT": "80"
+  },
   "resources": [
     {
       "apiVersion": "2020-08-01",
@@ -76,7 +78,7 @@
         "configuration": {
           "ingress": {
             "external": true,
-            "targetPort": 5000,
+            "targetPort": "[variables('APP_PORT')]",
             "transport": "Auto",
             "traffic": [
               {
@@ -104,7 +106,7 @@
                   "failureThreshold": 2,
                   "httpGet": {
                     "path": "/",
-                    "port": 5000,
+                    "port": "[variables('APP_PORT')]",
                     "scheme": "HTTP"
                   },
                   "periodSeconds": 5,

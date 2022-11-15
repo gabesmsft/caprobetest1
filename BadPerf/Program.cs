@@ -21,12 +21,11 @@ namespace BadPerf
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
 
-                    //webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();
 
                     Console.WriteLine("in program.cs");
                     //Thread.Sleep(100000);
-                    webBuilder.UseStartup<Startup>()
-                    .UseUrls("http://*:5000"); ;
+                    //webBuilder.UseStartup<Startup>().UseUrls("http://*:5000"); ;
                 });
     }
 }

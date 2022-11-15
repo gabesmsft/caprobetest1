@@ -20,7 +20,7 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-EXPOSE 5000
+EXPOSE 80
 
 # ENTRYPOINT export ASPNETCORE_ENVIRONMENT=Development && exec dotnet "BadPerf.dll"
 # ENTRYPOINT ["dotnet", "BadPerf.dll"]
