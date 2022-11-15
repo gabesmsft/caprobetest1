@@ -103,7 +103,7 @@
               "probes": [
                 {
                   "type": "Startup",
-                  "failureThreshold": 2,
+                  "failureThreshold": 5,
                   "httpGet": {
                     "path": "/",
                     "port": "[variables('APP_PORT')]",
@@ -111,7 +111,7 @@
                   },
                   "periodSeconds": 5,
                   "successThreshold": 1,
-                  "timeoutSeconds": 50
+                  "timeoutSeconds": 5
                 }
               ]
             }
